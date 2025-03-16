@@ -1,5 +1,4 @@
 # **ReviewTracker**
-
 ## **Overview**  
 **ReviewTracker** is a web-based tool built with **React** to streamline and automate the review process for slides and demo scribes. It offers two main modules:  
 
