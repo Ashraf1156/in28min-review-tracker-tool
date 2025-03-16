@@ -1,69 +1,30 @@
-# Welcome to your Lovable project
+# **ReviewTracker**
 
-## Project info
+## **Overview**  
+**ReviewTracker** is a web-based tool built with **React** to streamline and automate the review process for slides and demo scribes. It offers two main modules:  
 
-**URL**: https://lovable.dev/projects/aec58d6b-b7d3-459e-b342-fa2dd6c60640
+- **SlideReviewTracker** – Manually review slides with progress tracking and the ability to edit reviews before finalizing.  
+- **DemoReviewTracker** – Upload an Excel file with links to scribes, preview slides, review them, and add remarks before downloading the final report.  
 
-## How can I edit this code?
+🚀 **Why use ReviewTracker?**  
+- **Saves time** by eliminating the need to navigate through multiple browser tabs and files to update remarks and reviews.  
+- **Keeps track of progress** with an intuitive interface and progress bar, ensuring a smooth review process.  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## **Features**  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/aec58d6b-b7d3-459e-b342-fa2dd6c60640) and start prompting.
+### **1. SlideReviewTracker**  
+- 📌 Input the number of slides to review.  
+- 🚀 Start reviewing with a **progress bar** tracking completion.  
+- 💾 Use the **Save and Continue** button to automatically save the review.  
+- 🔄 Navigate between slides using a **Doubly Linked List**, allowing easy movement back and forth to modify reviews.  
+- 📂 Download the final review report in `.txt` format.  
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/aec58d6b-b7d3-459e-b342-fa2dd6c60640) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+### **2. DemoReviewTracker**  
+- 📤 Upload an **Excel file** containing links to all demo scribes.  
+- 👀 Automatically preview slides on the left side.  
+- 📝 Add remarks on the right side during the review process.  
+- 💾 Use the **Save and Continue** button to save reviews automatically.  
+- ⏭️ Click **Next** to move to the next scribe link from the uploaded Excel file.  
+- 📂 Download the final review report in `.txt` format.  
